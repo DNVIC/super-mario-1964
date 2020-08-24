@@ -1,19 +1,19 @@
 // 0x0700AD38 - 0x0700AD50
 static const Lights1 jrb_seg7_lights_0700AD38 = gdSPDefLights1(
-    0x3f, 0x3f, 0x3f,
-    0xff, 0xff, 0xff, 0x28, 0x28, 0x28
+    0x3f, 0x3f, 0x3f,  
+    0xff, 0xff, 0xff,   0x28, 0x28, 0x28
 );
 
 // 0x0700AD50 - 0x0700ADD0
 static const Vtx jrb_seg7_vertex_0700AD50[] = {
-    {{{  -153,    922,    154}, 0, {  -796,  -2076}, {0xa7, 0x0e, 0x59, 0xff}}},
-    {{{  -153,    922,   -153}, 0, {   736,  -2076}, {0xa7, 0x0e, 0xa7, 0xff}}},
-    {{{     0,      0,      0}, 0, {     0,    990}, {0x00, 0x82, 0x00, 0xff}}},
-    {{{   154,    922,    154}, 0, {   736,  -2076}, {0x59, 0x0e, 0x59, 0xff}}},
-    {{{     0,   1382,      0}, 0, {     0,  -3610}, {0x00, 0x7e, 0x00, 0xff}}},
-    {{{  -153,    922,   -153}, 0, {  -796,  -2076}, {0xa7, 0x0e, 0xa7, 0xff}}},
-    {{{   154,    922,   -153}, 0, {   736,  -2076}, {0x59, 0x0e, 0xa7, 0xff}}},
-    {{{   154,    922,    154}, 0, {  -796,  -2076}, {0x59, 0x0e, 0x59, 0xff}}},
+    {{{  -153,    922,    154}, 0, {  -796,  -2076}, {0x5a, 0x5a, 0x5a,  0xff}}},
+    {{{  -153,    922,   -153}, 0, {   736,  -2076}, {0x74, 0x74, 0x74,  0xff}}},
+    {{{     0,      0,      0}, 0, {     0,    990}, {0x2b, 0x2b, 0x2b,  0xff}}},
+    {{{   154,    922,    154}, 0, {   736,  -2076}, {0x40, 0x40, 0x40,  0xff}}},
+    {{{     0,   1382,      0}, 0, {     0,  -3610}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{  -153,    922,   -153}, 0, {  -796,  -2076}, {0x74, 0x74, 0x74,  0xff}}},
+    {{{   154,    922,   -153}, 0, {   736,  -2076}, {0x5a, 0x5a, 0x5a,  0xff}}},
+    {{{   154,    922,    154}, 0, {  -796,  -2076}, {0x40, 0x40, 0x40,  0xff}}},
 };
 
 // 0x0700ADD0 - 0x0700AE48
@@ -37,7 +37,7 @@ const Gfx jrb_seg7_dl_0700AE48[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_MODULATERGB, G_CC_PASS2),

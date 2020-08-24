@@ -2,50 +2,50 @@
 
 // Unreferenced light group
 UNUSED static const Lights1 unagi_lights_unused1 = gdSPDefLights1(
-    0x2c, 0x25, 0x00,
-    0xb2, 0x94, 0x00, 0x28, 0x28, 0x28
+    0x1b, 0x1b, 0x1b, 
+    0x6d, 0x6d, 0x6d,  0x28, 0x28, 0x28
 );
 
 // Unreferenced light group
 UNUSED static const Lights1 unagi_lights_unused2 = gdSPDefLights1(
-    0x35, 0x00, 0x00,
-    0xd5, 0x00, 0x00, 0x28, 0x28, 0x28
+    0x12, 0x12, 0x12, 
+    0x47, 0x47, 0x47,  0x28, 0x28, 0x28
 );
 
 // Unreferenced light group
 UNUSED static const Lights1 unagi_lights_unused3 = gdSPDefLights1(
-    0x37, 0x00, 0x00,
-    0xdd, 0x00, 0x00, 0x28, 0x28, 0x28
+    0x12, 0x12, 0x12, 
+    0x4a, 0x4a, 0x4a,  0x28, 0x28, 0x28
 );
 
 // Unreferenced light group
 UNUSED static const Lights1 unagi_lights_unused4 = gdSPDefLights1(
-    0x3f, 0x3f, 0x3f,
-    0xff, 0xff, 0xff, 0x28, 0x28, 0x28
+    0x3f, 0x3f, 0x3f, 
+    0xff, 0xff, 0xff,  0x28, 0x28, 0x28
 );
 
 // Unreferenced light group
 UNUSED static const Lights1 unagi_lights_unused5 = gdSPDefLights1(
-    0x00, 0x00, 0x00,
-    0x00, 0x00, 0x00, 0x28, 0x28, 0x28
+    0x0, 0x0, 0x0, 
+    0x0, 0x0, 0x0,  0x28, 0x28, 0x28
 );
 
 // Unreferenced light group
 UNUSED static const Lights1 unagi_lights_unused6 = gdSPDefLights1(
-    0x34, 0x00, 0x00,
-    0xd2, 0x00, 0x00, 0x28, 0x28, 0x28
+    0x11, 0x11, 0x11, 
+    0x46, 0x46, 0x46,  0x28, 0x28, 0x28
 );
 
 // Unreferenced light group
 UNUSED static const Lights1 unagi_lights_unused7 = gdSPDefLights1(
-    0x34, 0x00, 0x00,
-    0xd3, 0x00, 0x00, 0x28, 0x28, 0x28
+    0x11, 0x11, 0x11, 
+    0x46, 0x46, 0x46,  0x28, 0x28, 0x28
 );
 
 // Unreferenced light group
 UNUSED static const Lights1 unagi_lights_unused8 = gdSPDefLights1(
-    0x3f, 0x3f, 0x3f,
-    0xff, 0xff, 0xff, 0x28, 0x28, 0x28
+    0x3f, 0x3f, 0x3f, 
+    0xff, 0xff, 0xff,  0x28, 0x28, 0x28
 );
 
 // 0x0500AF20
@@ -141,7 +141,7 @@ const Gfx unagi_seg5_dl_0500CDD0[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGB, G_CC_PASS2),
@@ -219,7 +219,7 @@ const Gfx unagi_seg5_dl_0500D050[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGB, G_CC_PASS2),
@@ -280,7 +280,7 @@ const Gfx unagi_seg5_dl_0500D268[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGB, G_CC_PASS2),
@@ -338,7 +338,7 @@ const Gfx unagi_seg5_dl_0500D468[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGB, G_CC_PASS2),
@@ -396,7 +396,7 @@ const Gfx unagi_seg5_dl_0500D668[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGB, G_CC_PASS2),
@@ -450,7 +450,7 @@ const Gfx unagi_seg5_dl_0500D828[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGB, G_CC_PASS2),
@@ -570,7 +570,7 @@ const Gfx unagi_seg5_dl_0500DD08[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGB, G_CC_PASS2),
@@ -625,7 +625,7 @@ const Gfx unagi_seg5_dl_0500DEB8[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_TEX_EDGE2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGBA, G_CC_PASS2),
@@ -680,7 +680,7 @@ const Gfx unagi_seg5_dl_0500E088[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_TEX_EDGE2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGBA, G_CC_PASS2),
@@ -735,7 +735,7 @@ const Gfx unagi_seg5_dl_0500E258[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_TEX_EDGE2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(5, 80, 75, 255),
+    gsDPSetFogColor(53,53,53,255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGBA, G_CC_PASS2),

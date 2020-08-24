@@ -2,8 +2,8 @@
 
 // 0x070241B8 - 0x070241D0
 static const Lights1 hmc_seg7_lights_070241B8 = gdSPDefLights1(
-    0x50, 0x50, 0x50,
-    0xff, 0xff, 0xff, 0x32, 0x32, 0x32
+    0x50, 0x50, 0x50,  
+    0xff, 0xff, 0xff,   0x32, 0x32, 0x32
 );
 
 // 0x070241D0 - 0x070241E8
@@ -16,18 +16,18 @@ static const Lights1 hmc_seg7_lights_070241D0 = {
 // Appears to lock 4 of the sides when shimmering and in use. Unused.
 // 0x070241E8 - 0x07024228
 static const Vtx hmc_seg7_vertex_070241E8[] = {
-    {{{     0,      0,      0}, 0, {   -32,    990}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{   614,      0,      0}, 0, {  6100,    990}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{   614,    614,      0}, 0, {  6100,  -5142}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{     0,    614,      0}, 0, {   -32,  -5142}, {0x00, 0x00, 0x7f, 0xff}}},
+    {{{     0,      0,      0}, 0, {   -32,    990}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{   614,      0,      0}, 0, {  6100,    990}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{   614,    614,      0}, 0, {  6100,  -5142}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{     0,    614,      0}, 0, {   -32,  -5142}, {0x2a, 0x2a, 0x2a,  0xff}}},
 };
 
 // 0x07024228 - 0x07024268
 static const Vtx hmc_seg7_vertex_07024228[] = {
-    {{{     0,      0,      0}, 0, {     0,      0}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{   614,      0,      0}, 0, {     0,      0}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{   614,    614,      0}, 0, {     0,      0}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{     0,    614,      0}, 0, {     0,      0}, {0x00, 0x00, 0x7f, 0xff}}},
+    {{{     0,      0,      0}, 0, {     0,      0}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{   614,      0,      0}, 0, {     0,      0}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{   614,    614,      0}, 0, {     0,      0}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{     0,    614,      0}, 0, {     0,      0}, {0x2a, 0x2a, 0x2a,  0xff}}},
 };
 
 // Unused
@@ -543,6 +543,6 @@ struct Painting cotmc_painting = {
     /* Ripple DList */ hmc_seg7_painting_dl_070242D0,
     /* Ripple Trigger */ RIPPLE_TRIGGER_CONTINUOUS,
     /* Alpha */ 0xFF,
-    /* Mario Below */  0x00, 0x00, 0x00, /* Whether or not Mario is below the painting */
+    /* Mario Below */  0x0, 0x0, 0x0,  /* Whether or not Mario is below the painting */
     /* Size */  723.968018f,
 };

@@ -1,7 +1,7 @@
 // 0x07015F78 - 0x07015F90
 static const Lights1 ttc_lights_surface_treadmill = gdSPDefLights1(
-    0x3f, 0x3f, 0x3f,
-    0xff, 0xff, 0xff, 0x28, 0x28, 0x28
+    0x3f, 0x3f, 0x3f,  
+    0xff, 0xff, 0xff,   0x28, 0x28, 0x28
 );
 
 // 0x07015F90 - 0x07016790
@@ -15,7 +15,7 @@ const Gfx ttc_dl_surface_treadmill_begin[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(200, 255, 255, 255),
+    gsDPSetFogColor(237, 237, 237, 255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_MODULATERGB, G_CC_PASS2),

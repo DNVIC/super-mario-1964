@@ -404,9 +404,11 @@ rgba *png2rgba(const char *png_filename, int *width, int *height)
          for (int j = 0; j < h; j++) {
             for (int i = 0; i < w; i++) {
                int idx = j*w + i;
-               img[idx].red   = data[channels*idx];
-               img[idx].green = data[channels*idx + 1];
-               img[idx].blue  = data[channels*idx + 2];
+
+
+               img[idx].red   = (data[channels*idx] + data[channels*idx + 1] + data[channels*idx + 2])/3;
+               img[idx].green = (data[channels*idx] + data[channels*idx + 1] + data[channels*idx + 2])/3;
+               img[idx].blue  = (data[channels*idx] + data[channels*idx + 1] + data[channels*idx + 2])/3;
                if (channels == 4) {
                   img[idx].alpha = data[channels*idx + 3];
                } else {

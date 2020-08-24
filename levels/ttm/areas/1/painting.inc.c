@@ -2,20 +2,20 @@
 
 // 0x070122F0 - 0x07012308
 static const Lights1 ttm_seg7_lights_070122F0 = gdSPDefLights1(
-    0x50, 0x50, 0x50,
-    0xff, 0xff, 0xff, 0x32, 0x32, 0x32
+    0x50, 0x50, 0x50,  
+    0xff, 0xff, 0xff,   0x32, 0x32, 0x32
 );
 
 // 0x07012308 - 0x07012388
 static const Vtx ttm_seg7_vertex_07012308[] = {
-    {{{     0,      0,      0}, 0, {   -32,    992}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{   614,      0,      0}, 0, {  2012,    992}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{   614,    307,      0}, 0, {  2012,      0}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{     0,    307,      0}, 0, {   -32,      0}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{     0,    307,      0}, 0, {   -32,    992}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{   614,    307,      0}, 0, {  2012,    992}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{   614,    614,      0}, 0, {  2012,    -28}, {0x00, 0x00, 0x7f, 0xff}}},
-    {{{     0,    614,      0}, 0, {   -32,    -28}, {0x00, 0x00, 0x7f, 0xff}}},
+    {{{     0,      0,      0}, 0, {   -32,    992}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{   614,      0,      0}, 0, {  2012,    992}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{   614,    307,      0}, 0, {  2012,      0}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{     0,    307,      0}, 0, {   -32,      0}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{     0,    307,      0}, 0, {   -32,    992}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{   614,    307,      0}, 0, {  2012,    992}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{   614,    614,      0}, 0, {  2012,    -28}, {0x2a, 0x2a, 0x2a,  0xff}}},
+    {{{     0,    614,      0}, 0, {   -32,    -28}, {0x2a, 0x2a, 0x2a,  0xff}}},
 };
 
 // 0x07012388 - 0x070123A0
@@ -572,6 +572,6 @@ struct Painting ttm_slide_painting = {
     /* Ripple DList */ ttm_seg7_painting_dl_07012430,
     /* Ripple Trigger */ RIPPLE_TRIGGER_PROXIMITY,
     /* Alpha */ 0xFF,
-    /* Mario Below */  0x00, 0x00, 0x00, /* Whether or not Mario is below the painting */
+    /* Mario Below */  0x0, 0x0, 0x0,  /* Whether or not Mario is below the painting */
     /* Size */  460.8f,
 };

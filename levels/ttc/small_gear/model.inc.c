@@ -1,9 +1,9 @@
 // 0x070120D0 - 0x07012110
 static const Vtx ttc_seg7_vertex_070120D0[] = {
-    {{{   102,      0,   -101}, 0, {   990,      0}, {0xff, 0xff, 0xff, 0xff}}},
-    {{{  -101,      0,   -101}, 0, {     0,      0}, {0xff, 0xff, 0xff, 0xff}}},
-    {{{  -101,      0,    102}, 0, {     0,    990}, {0xff, 0xff, 0xff, 0xff}}},
-    {{{   102,      0,    102}, 0, {   990,    990}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{   102,      0,   -101}, 0, {   990,      0}, {0xff, 0xff, 0xff,  0xff}}},
+    {{{  -101,      0,   -101}, 0, {     0,      0}, {0xff, 0xff, 0xff,  0xff}}},
+    {{{  -101,      0,    102}, 0, {     0,    990}, {0xff, 0xff, 0xff,  0xff}}},
+    {{{   102,      0,    102}, 0, {   990,    990}, {0xff, 0xff, 0xff,  0xff}}},
 };
 
 // 0x07012110 - 0x07012148
@@ -22,7 +22,7 @@ const Gfx ttc_seg7_dl_07012148[] = {
     gsDPSetCycleType(G_CYC_2CYCLE),
     gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_TEX_EDGE2),
     gsDPSetDepthSource(G_ZS_PIXEL),
-    gsDPSetFogColor(200, 255, 255, 255),
+    gsDPSetFogColor(237, 237, 237, 255),
     gsSPFogPosition(900, 1000),
     gsSPSetGeometryMode(G_FOG),
     gsDPSetCombineMode(G_CC_DECALRGBA, G_CC_PASS2),
