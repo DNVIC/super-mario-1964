@@ -5,6 +5,7 @@ Changed the textures using the PNG to RGBA converter and changed the vertex colo
 Fog done mainly manually, as fog is strange and acts weird.
 Requires a copy of the US version of Super Mario 64 to build.
 
+oh yeah its console compatible if you're into that.
 
 ## Known problems:
 #### 1: The game looks weird in some places (like star doors for example)
